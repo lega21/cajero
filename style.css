@@ -1,0 +1,63 @@
+body {
+    background-color: #070619;
+    color: white;
+}
+
+.container {
+    width: 50%;
+}
+
+.avatar {
+    width: 70px;
+    border-radius: 15px;
+}
+
+.header {
+    display: flex;
+}
+
+.name {
+    text-align: right;
+    margin-left: 100px;
+}
+
+.nav {
+    display: flex;
+}
+
+.navbar-item {
+    margin: 20px;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #365cc6;
+    padding-left: 50px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+}
+
+.row {
+    display: flex;
+}
+
+.last-state {
+    text-align: left;
+}
+
+.bal-amount {
+    margin-left: 35px;
+    color: yellow;
+}
+
+.pay-amount {
+    margin-left: 44px;
+    color: yellow;
+}
+
+.divider {
+    height: 25px;
+}

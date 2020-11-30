@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cajero automático</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="avatar">
+                <img src="avatar.png" class="avatar">
+            </div>
+            <div class="name">
+                <p>Angello</p>
+                <p>S/. 1000,00</p>
+            </div>
+        </div>
+        <nav class="nav">
+            <p class="navbar-item">Tarjeta de credito</p>
+            <p class="navbar-item">Transaciones</p>
+            <p class="navbar-item">Saldo</p>
+        </nav>
+        <div class="card">
+            <p class="card-title"><b>Cuenta</b> Resumen</p>
+            <div class="row">
+                <span class="last-state">Ultimo Balance</span>
+                <span class="bal-amount">S/. 758,00</span>
+            </div>
+            <div class="row">
+                <span class="pay-state">Pago minimo</span>
+                <span class="pay-amount">S/. 758,00</span>
+            </div>
+            <p>On <b>Nov 29, 2020</b></p>
+        </div>
+        <div class="divider"></div>
+        <div class="card">
+            <p class="card-title"><b>Devolucion</b> 2020</p>
+            <div class="row">
+                <span class="last-state">Ultimo balance</span>
+                <span class="bal-amount">S/. 520,00</span>
+            </div>
+            <div class="row">
+                <span class="pay-state">Pago minimo</span>
+                <span class="pay-amount">S/. 230,00</span>
+            </div>
+            <p>On <b>Nov 29, 2020</b></p>
+        </div>
+
+        <p>
+            <input type="number" id="dinero" />
+            <input type="button" value="Extraer" id="extraer" />
+        </p>
+        <p id="resultado"></p>
+    </div>
+    <script src="cajero.js"></script>
+</body>
+
+</html>
